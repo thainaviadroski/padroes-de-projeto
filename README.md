@@ -3,18 +3,20 @@
 
 ## Padrões Criacionais
 
-### Factory Method 
+#### Factory Method 
 
-### Abstract Factory
+#### Abstract Factory
 
-### Abstract Factory
+#### Abstract Factory
 
-### Prototype
+#### Prototype
 
-### Singleton
+O [Prototype](https://refactoring.guru/pt-br/design-patterns/prototype) é um padrão de projeto criacional que permite copiar objetos existentes sem fazer seu código ficar dependente de suas classes.
+
+#### Singleton
 
 O [Singleton](https://refactoring.guru/pt-br/design-patterns/singleton) é um padrão de projeto criacional que permite a você garantir que uma classe tenha apenas uma instância, enquanto provê um ponto de acesso global para essa instância.
-[Software design pattern](https://en.wikipedia.org/wiki/Software_design_pattern) 
+ 
 ## Padrões Estruturais
 
 
