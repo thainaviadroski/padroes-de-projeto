@@ -19,12 +19,15 @@ O [Abstract Factory](https://refactoring.guru/pt-br/design-patterns/abstract-fac
 #### - Prototype
 
 O [Prototype](https://refactoring.guru/pt-br/design-patterns/prototype) é um padrão de projeto criacional que permite copiar objetos existentes sem fazer seu código ficar dependente de suas classes.
+
 [Implementação Java](prototype/java)
 
 
 #### - Singleton
 
 O [Singleton](https://refactoring.guru/pt-br/design-patterns/singleton) é um padrão de projeto criacional que permite a você garantir que uma classe tenha apenas uma instância, enquanto provê um ponto de acesso global para essa instância.
+
+[Implementação Java](singleton/java)
  
 ---
 ### Padrões Estruturais
