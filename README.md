@@ -1,5 +1,7 @@
 ## Padrões de Projetos
 
+Padrões de projeto são soluções para problemas comuns e frequentes em projeto de software. 
+
 ---
 ### Padrões Criacionais
 
