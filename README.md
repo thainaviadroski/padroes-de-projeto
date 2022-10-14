@@ -38,3 +38,8 @@ O [Singleton](https://refactoring.guru/pt-br/design-patterns/singleton) é um pa
 ### Padrões Comportamentais
 
 
+
+### Referências 
+
+[Refactoring and Design Patterns](https://refactoring.guru/)
+
