@@ -1,9 +1,9 @@
 ## Factory Method
 
-É um padrão criacional de projeto que fornece uma interface para criar objetos em uma superclasse, mas permite que as subclasses alterem o tipo de objetos que serão criados.(Livro Mergulho nos Padrões de Projeto) 
+É um padrão criacional de projeto que fornece uma interface para criar objetos em uma superclasse, mas permite que as subclasses alterem o tipo de objetos que serão criados(Livro Mergulho nos Padrões de Projeto) 
 
 Um padrão que define uma interface para criar um objeto, mas permite às classes decidirem qual classe instanciar. O Factory Method permite a uma classe deferir a
-instanciação para subclasses.(Livro GOF)
+instanciação para subclasses(Livro GOF)
 
 ---
 #### - Problema
