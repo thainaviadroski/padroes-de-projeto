@@ -14,7 +14,7 @@ Como deixar o código desacoplado das classes concretas?
 
 #### - Solução
 
-Extrair o código de criação para um Factory Method
+Extrair o código de criação para um Factory Method.  
 
 Invocar o Factory Method para receber uma instância qualquer que implemente um determinada interface.
 
