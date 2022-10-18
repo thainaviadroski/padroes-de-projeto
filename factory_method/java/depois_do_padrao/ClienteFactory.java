@@ -1,9 +1,11 @@
 package factory_method.java.depois_do_padrao;
 
+import factory_method.java.depois_do_padrao.modelo.Transporte;
 import factory_method.java.depois_do_padrao.factory.AereoFactory;
 import factory_method.java.depois_do_padrao.factory.FerroviarioFactory;
 import factory_method.java.depois_do_padrao.factory.HidroviarioFactory;
 import factory_method.java.depois_do_padrao.factory.RodoviarioFactory;
+import factory_method.java.depois_do_padrao.factory.TransporteFactory;
 
 public class ClienteFactory {
 
@@ -12,24 +14,24 @@ public class ClienteFactory {
         System.out.println("### Ordem de transporte ###");
         
         System.out.println("");
-        AereoFactory aereoFactory = new AereoFactory();
-        aereoFactory.ordemDeTransporte();
-        System.out.println(aereoFactory.toString());
+        TransporteFactory aereoFactory = new AereoFactory();
+        Transporte transporteAereo = aereoFactory.ordemDeTransporte();
+        System.out.println(transporteAereo.toString());
 
         System.out.println("");
-        FerroviarioFactory ferroviarioFactory = new FerroviarioFactory(); 
-        ferroviarioFactory.ordemDeTransporte();
-        System.out.println(ferroviarioFactory.toString());
+        TransporteFactory ferroviarioFactory = new FerroviarioFactory(); 
+        Transporte transporteFerroviario = ferroviarioFactory.ordemDeTransporte();
+        System.out.println(transporteFerroviario.toString());
 
         System.out.println("");
-        HidroviarioFactory hidroviarioFactory = new HidroviarioFactory();
-        hidroviarioFactory.ordemDeTransporte();
-        System.out.println(hidroviarioFactory.toString());
+        TransporteFactory hidroviarioFactory = new HidroviarioFactory();
+        Transporte transporteHidroviario = hidroviarioFactory.ordemDeTransporte();;
+        System.out.println(transporteHidroviario.toString());
 
         System.out.println("");
-        RodoviarioFactory rodoviarioFactory = new RodoviarioFactory();
-        rodoviarioFactory.ordemDeTransporte();
-        System.out.println(rodoviarioFactory.toString());
+        TransporteFactory rodoviarioFactory = new RodoviarioFactory();
+        Transporte transporteRodoviario = rodoviarioFactory.ordemDeTransporte();
+        System.out.println(transporteRodoviario.toString());
 
     }
 

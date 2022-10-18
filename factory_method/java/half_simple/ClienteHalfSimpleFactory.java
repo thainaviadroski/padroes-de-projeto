@@ -11,24 +11,24 @@ public class ClienteHalfSimpleFactory {
         System.out.println("### Ordem de transporte ###");
         
         System.out.println("");
-        TerrestreFactory terrestreFactory = new TerrestreFactory();
-        terrestreFactory.ordemDeTransporte(Transporte.GRANDE);
-        System.out.println(terrestreFactory.toString());
+        TerrestreFactory terrestreCapacidadeGrandeFactory = new TerrestreFactory();
+        Transporte transporteCapacidadeGrande = terrestreCapacidadeGrandeFactory.ordemDeTransporte(Transporte.GRANDE);
+        System.out.println(transporteCapacidadeGrande.toString());
 
         System.out.println("");
-        TerrestreFactory terrestreFactory01 = new TerrestreFactory();
-        terrestreFactory01.ordemDeTransporte(Transporte.POUCA);
-        System.out.println(terrestreFactory01.toString());
+        TerrestreFactory terrestreCapacidadePoucaFactory = new TerrestreFactory();
+        Transporte transporteCapacidadePouca = terrestreCapacidadePoucaFactory.ordemDeTransporte(Transporte.POUCA);
+        System.out.println(transporteCapacidadePouca.toString());
 
         System.out.println("");
-        NaoTerrestreFactory naoTerrestreFactory = new NaoTerrestreFactory();
-        naoTerrestreFactory.ordemDeTransporte(Transporte.GRANDE);
-        System.out.println(naoTerrestreFactory.toString());
+        NaoTerrestreFactory naoTerrestreCapacidadeGrandeFactory = new NaoTerrestreFactory();
+        Transporte transporteCapacidadeGrandeN = naoTerrestreCapacidadeGrandeFactory.ordemDeTransporte(Transporte.GRANDE);
+        System.out.println(transporteCapacidadeGrandeN.toString());
 
         System.out.println("");
-        NaoTerrestreFactory naoTerrestreFactory01 = new NaoTerrestreFactory();
-        naoTerrestreFactory.ordemDeTransporte(Transporte.POUCA);
-        System.out.println(naoTerrestreFactory01.toString());
+        NaoTerrestreFactory naoTerrestreCapacidadePoucaFactory = new NaoTerrestreFactory();
+        Transporte transporteCapacidadePoucaN = naoTerrestreCapacidadePoucaFactory.ordemDeTransporte(Transporte.POUCA);
+        System.out.println(transporteCapacidadePoucaN.toString());
 
     }
 
