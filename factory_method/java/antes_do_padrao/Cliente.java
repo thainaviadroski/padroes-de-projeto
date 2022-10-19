@@ -39,8 +39,7 @@ public class Cliente {
         System.out.println("### Ordem de transporte - antes do padrão ###");
         
         System.out.println("");
-        Transporte aereo = ordemDeTransporte(Transporte.FERROVIARIO);
-        aereo.entregar();
+        Transporte aereo = ordemDeTransporte(Transporte.AEREO);
         System.out.println(aereo.toString());
 
         System.out.println("");
