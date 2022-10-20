@@ -46,5 +46,6 @@ O [Singleton](https://refactoring.guru/pt-br/design-patterns/singleton) é um pa
 
 ### Referências 
 
+SHVETS, Alexander. Dive Into Design Patterns. 2021.
 [Refactoring and Design Patterns](https://refactoring.guru/)
 
