@@ -23,9 +23,9 @@ Certeza que os objetos obtidos de uma fábrica são compatíveis.
 
 Evita um vínculo forte entre classes concretas e o código cliente.
 
-Princípio de responsabilidade única. Você pode extrair o código de criação dos objetos para um lugar, fazendo o código ser de fácil manutenção.
+Princípio de responsabilidade única. Pode-se extrair o código de criação dos objetos para um único lugar, fazendo o código ser de fácil manutenção.
 
-Princípio aberto/fechado. Você pode introduzir novas variantes do objetos sem quebrar o código cliente existente.
+Princípio aberto/fechado. Pode-se introduzir novas variantes do objetos sem quebrar o código cliente existente.
 
 #### - Desvantagens
 
