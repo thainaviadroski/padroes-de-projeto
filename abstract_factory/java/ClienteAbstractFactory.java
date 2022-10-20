@@ -13,16 +13,19 @@ public class ClienteAbstractFactory {
         
         System.out.println("### Fabricando móveis  ###");        
         
-        FabricaFactory factory = new FabricaModernaFactory();
-        //FabricaFactory factory = new FabricaVitorianaFactory();
+        //FabricaFactory factory = new FabricaModernaFactory();
+        FabricaFactory factory = new FabricaVitorianoFactory();
 
         Cadeira cadeira = factory.fabricaCadeira();
         cadeira.sentar();
+        System.out.println(cadeira.toString());
         
         System.out.println(" ");        
         
         MesaDeCentro mesaDeCentro = factory.fabricaMesaDeCentro();
-        mesaDeCentro.colocarDecoracao(); 
+        mesaDeCentro.colocarDecoracao();
+        System.out.println(mesaDeCentro.toString());
+        
         
     }
     
