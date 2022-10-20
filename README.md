@@ -49,3 +49,5 @@ O [Singleton](https://refactoring.guru/pt-br/design-patterns/singleton) é um pa
 SHVETS, Alexander. Dive Into Design Patterns. 2021.
 [Refactoring and Design Patterns](https://refactoring.guru/)
 
+GAMMA, Erich; HELM, Richard; JOHNSON, Ralph; VLISSIDES, John. Design patterns: elements of reusable object-oriented software. Addison-Wesley, 1995.
+
