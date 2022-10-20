@@ -9,21 +9,13 @@ Prover uma interface para criar famílias de objetos relacionados ou dependentes
 
 Como escrever um código onde as classes instanciadas possam variar dentro de uma mesma interface? 
 
-Como podemos garantir que um conjunto/familia de objetos relacionados ou dependentes possam ser criadas em um unico contexto?
-
-de objtos relacionados  deixar o código desacoplado das classes concretas? 
-
-COMO GARANTIR QUE UM CONJUNTO DE
-OBJETOS RELACIONADOS (OU
-MANTENDO O CONTEXTO ÚNICO?
-
-
+Como garantir que um conjunto de objetos relacionados ou dependentes possam ser criadas em um único contexto?
 
 #### - Solução
 
-Extrair o código de criação para um Factory Method.  
+Extrair o código de criação para um Abstract Factory.  
 
-Invocar o Factory Method para receber uma instância qualquer que implemente um determinada interface.
+Criar uma implementção do Abstract Factory para cada contexto, garantindo assim que todos os objetos criados sejam do mesmo conjunto.
 
 #### - Vantagens
 
