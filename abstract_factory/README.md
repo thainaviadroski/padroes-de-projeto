@@ -19,7 +19,7 @@ Criar uma implementação do Abstract Factory para cada contexto, garantindo ass
 
 #### - Vantagens
 
-Certeza que os objetos obtidos de uma fábrica são compatíveis entre si. 
+Certeza que os objetos obtidos de uma fábrica são compatíveis. 
 
 Evita um vínculo forte entre classes concretas e o código cliente.
 
