@@ -1,3 +1,5 @@
+package Prototype.src;
+
 import java.util.Objects;
 
 public abstract class Shape {
